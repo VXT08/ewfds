@@ -1,0 +1,76 @@
+body {
+    font-family: Inter; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #5988FF; /* Цвет фона веб-страницы */
+    color: #ffffff; /* Цвет основного текста */ 
+}
+h1 {
+    color: #FFFFFF; /* Цвет заголовка */
+    font-size: 48px; /* Размер шрифта в пунктах */
+    font-family: Inter; /* Семейство шрифтов */
+}
+li {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+h2 {
+    color: #D6FF6B;
+    font-size: 24px;
+    font-family: Inter;
+}
+h3 {
+    color: #D6FF6B;
+    font-size: 24px;
+    font-family: Inter;
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+  
+    14% {
+      color: rgb(255, 123, 0);
+    }
+  
+    24% {
+      color: rgb(225, 255, 0);
+    }
+    36% {
+        color: rgb(0, 255, 34);
+      }
+    48% {
+      color: rgb(0, 225, 255);
+    }
+    60% {
+        color: rgb(17, 0, 255);
+      }
+    72% {
+      color: rgb(119, 0, 255);
+    }
+    100% {
+        color: rgb(255, 0, 170);
+      }
+}
+
+h1:hover {
+    animation: color-change 14s infinite;
+}
+
+
+@keyframes color-change2 {
+    0% {
+      color: #D6FF6B;
+    }
+  
+    50% {
+      color: #f1ffcd;
+    }
+    100% {
+        color: #b7ff00;
+      }
+}
+
+h2 {
+    animation: color-change2 3s infinite;
+}
